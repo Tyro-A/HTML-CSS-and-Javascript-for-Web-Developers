@@ -1,0 +1,81 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #EEEEEE;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*Header*/
+#header-nav {
+	background-color: #26A69A;
+	border-radius: 0;
+	border: 0;
+	color: #fff;
+}
+.navbar-brand {
+	line-height: 80px;
+	height: 80px;
+	padding-top: 5px;
+}
+
+.navbar-brand h1 {
+	color: #fff;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: .90;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand h1:hover, .navbar-brand h1:focus {
+	color: #B2DFDB;
+}
+
+.navbar-header > button {
+	margin-top: 25px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #B2DFDB;
+}
+
+#nav-list {
+	margin-top: 10px;
+	height: 100%;
+}
+#nav-list a {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+#nav-list a:hover, #nav-list a:focus {
+	background-color: #B2DFDB;
+	color: #010101;
+	font-weight: bold;
+}
+/*End of the Header*/
+
+/*Main Content*/
+#main-content {
+	width: 92%;
+}
+#main-content h2 {
+	color: #455A64;
+}
+.chicken-card {
+	background-color: #fff;
+	margin: 20px;
+}
+
+.chicken-card h3  {
+	color: #455A64;
+	text-align: center;
+	padding-top: 30px;
+}
+.chicken-card p {
+	color: #455A64;
+	text-align: justify;
+	padding: 40px;
+}
+/* End of Main Content*/
